@@ -1,0 +1,124 @@
+:root {
+    --container-width: 35vw;
+    --container-height: 50vh;
+    --container-curve: 10px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.product-container {
+    display: inline-flex;
+    height: var(--container-height);
+    width: var(--container-width);
+    border-radius: var(--container-curve);
+    position: relative;
+}
+
+.product-container-part {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.product-img {
+    background-image: url("images/image-product-desktop.jpg");
+    background-size: cover;
+    border-radius: var(--container-curve) 0 0 var(--container-curve);
+}
+
+.product-info {
+    background-color: white;
+    border-radius: 0 var(--container-curve) var(--container-curve) 0;
+}
+
+.product-info-content {
+    padding-left: 1.6vw;
+    padding-top: 2vh;
+    padding-right: 1.6vw;
+}
+
+.product-info-content p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.product-info-content h1 {
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.product-info-content h3 {
+    color: hsl(228, 12%, 48%);
+    font-weight: 300;
+    font-family: 'Montserrat', serif;
+    font-size: 1.4vh;
+    letter-spacing: 0.3em;
+
+}
+
+.add-to-cart-container {
+    background-color: #3D8168;
+}
+
+.center {
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+}
+
+.price-discounted {
+    color: hsl(158, 36%, 37%);
+    display: inline;
+    font-size: 1.8vw;
+    font-family: 'Fraunces', serif;
+}
+
+.price-original {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    display: inline;
+    font-size: 0.7vw;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+
+.price {
+    padding-bottom: 20px;
+}
+
+.cart-button {
+    display: inline-block;
+    width: 100%;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+}
+
+.cart-logo {
+    display: inline-flex;
+    padding-top: 1.5vh;
+    padding-left: 3.2vw;
+}
+
+.cart-button p {
+    display: inline;
+    color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.cart-button:hover {
+    cursor: pointer;
+}
+
+
+

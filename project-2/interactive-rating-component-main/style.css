@@ -1,0 +1,218 @@
+@media screen and (max-width: 375px) {
+
+    .container {
+        height: 360px;
+        width: 320px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+
+    .star-container {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-image: url(images/icon-star.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        margin-bottom: 15px;
+    }
+
+    .container h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .container p {
+        margin-top: 15px;
+        font-size: 0.95em;
+    }
+
+    .ratings button {
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .ratings {
+        margin-bottom: 20px;
+    }
+
+    .submit {
+        border-radius: 20px;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .button-space-right {
+        margin-right: 13px;
+    }
+
+    .selection-outcome {
+        width: 190px;
+        border-radius: 30px;
+        height: 30px;
+        padding-top: 5px;
+        box-sizing: border-box;
+        margin: 20px auto 25px;
+    }
+
+    .submission-content h1 {
+        font-size: 1.5em;
+        font-weight: lighter;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media screen and (min-width: 376px) {
+
+    .container {
+        width: 450px;
+        height: 450px;
+        border-radius: 35px;
+        box-sizing: border-box;
+        padding: 40px;
+    }
+
+    .star-container {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: url(images/icon-star.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        margin-bottom: 10px;
+    }
+
+    .ratings {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .ratings button {
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        box-sizing: border-box;
+        padding-top: 15px;
+    }
+
+    .button-space-right {
+        margin-right: 26px;
+    }
+
+    .submit {
+        height: 50px;
+        border-radius: 30px;
+        padding-top: 15px;
+    }
+
+    .selection-outcome {
+        width: 55%;
+        height: 35px;
+        border-radius: 30px;
+        padding-top: 8px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .thanks-img {
+        margin-bottom: 35px;
+    }
+
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+.submit {
+    display: inline-flex;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    justify-content: center;
+    font-family: 'Overpass', serif;
+    font-size: 1.15em;
+    letter-spacing: 0.09em;
+    transition: all .2s ease-in-out;
+    width: 100%;
+}
+
+.container h1 {
+    color: white;
+    font-family: 'Overpass', serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.container div {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', serif;
+}
+
+.container {
+    background-color: #19202A;
+    display: inline-block;
+}
+
+.star-container {
+    background-color: #262F38;
+    display: inline-block;
+}
+
+/*numbers*/
+.ratings button {
+    display: inline-flex;
+    background-color: #262F38;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.1em;
+    border: none;
+    font-family: 'Overpass', serif;
+    color: hsl(217, 12%, 63%);
+    transition: all .2s ease-in-out;
+}
+
+.ratings button:hover {
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+/*initial content*/
+.rate-content {
+}
+
+/*submitted content*/
+.submission-content {
+    display: none;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.selection-outcome {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%) !important;
+}

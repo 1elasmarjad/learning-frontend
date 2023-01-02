@@ -1,0 +1,223 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 500px) {
+
+    .card {
+        width: 325px;
+        height: 566px;
+    }
+
+    .illustration {
+        height: 156px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .content {
+        height: 410px;
+        border-radius: 0 0 20px 20px;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .plan {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .card h1 {
+        margin-bottom: 20px;
+    }
+
+    button.confirm {
+        border-radius: 10px;
+        margin-bottom: 25px;
+        height: 50px;
+    }
+
+    .confirm-container {
+        padding: 0 25px 0 25px;
+    }
+
+    .plan {
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        height: 80px;
+    }
+
+    .card p {
+        padding: 0 35px 0 35px;
+    }
+
+}
+
+@media screen and (min-width: 376px) {
+
+    .card {
+        width: 400px;
+        height: 650px;
+    }
+
+    .illustration {
+        height: auto;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .content {
+        border-radius: 0 0 20px 20px;
+        padding-top: 30px;
+    }
+
+    .plan {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .card h1 {
+        margin-bottom: 20px;
+    }
+
+    button.confirm {
+        border-radius: 10px;
+        margin-bottom: 25px;
+        height: 50px;
+    }
+
+    .confirm-container {
+        padding: 0 25px 0 25px;
+    }
+
+    .plan {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        height: 80px;
+    }
+
+    .card p {
+        padding: 0 35px 0 35px;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D6E1FF;
+    font-size: 16px;
+}
+
+.card {
+    font-family: 'Red Hat Display', serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.illustration {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    background-color: white;
+    font-size: 16px;
+}
+
+.card h1 {
+    font-size: 22px;
+    font-weight: 900;
+    display: block;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.card p {
+    color: var(--desaturated-blue);
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.7em;
+}
+
+.plan {
+    display: table;
+    width: 90%;
+    background-color: var(--very-pale-blue);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.plan-details, .change {
+    display: inline-block;
+}
+
+.plan-name {
+    font-weight: 900;
+}
+
+.price {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+
+.price, .plan-name {
+    font-size: 15px;
+}
+
+.change {
+    color: var(--bright-blue);
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+button.confirm {
+    display: inline-block;
+    width: 100%;
+    border: none;
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 900;
+    font-family: 'Red Hat Display', serif;
+    font-size: 15px;
+}
+
+.cancel {
+    text-align: center;
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
+
+.plan .plan-details, .plan .change, .plan .icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.change:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+

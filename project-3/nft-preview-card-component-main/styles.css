@@ -1,0 +1,205 @@
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg-color: hsl(217, 54%, 11%);
+    --card-bg-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%)
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+.card {
+    width: 325px;
+    height: 560px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.card h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.pfp {
+    width: 35px;
+    height: 35px;
+}
+
+.data {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.data svg {
+    margin-right: 3px;
+}
+
+.creation-data {
+    margin-top: 20px;
+}
+
+.pfp {
+    margin-right: 15px;
+    float: top;
+}
+
+
+.card {
+    background-color: var(--card-bg-color);
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.equilibrium img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.equilibrium {
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.card h1 {
+    color: white;
+    font-family: 'Outfit', serif;
+    font-weight: normal;
+}
+
+.price {
+    color: var(--cyan);
+    font-family: 'Outfit', serif;
+    display: inline-block;
+    float: left;
+}
+
+.data svg {
+    vertical-align: text-bottom;
+}
+
+.expiry {
+    font-family: 'Outfit', serif;
+    color: var(--soft-blue);
+    display: inline-block;
+    horiz-align: right;
+    float: right;
+}
+
+.data {
+    width: 100%;
+    display: inline-block;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: var(--line-color);
+}
+
+
+.card p {
+    color: var(--soft-blue);
+    font-family: 'Outfit', serif;
+    font-weight: lighter;
+    line-height: 1.7em;
+}
+
+
+.author-name {
+    display: inline-block;
+    color: white;
+}
+
+
+.creation-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.pfp {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+
+.creation-data .text {
+    font-family: 'Outfit', serif;
+    font-weight: lighter;
+    color: var(--soft-blue);
+    font-size: 0.95em;
+}
+
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.author-name:hover, .card h1:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.author-name, .card h1 {
+    transition: color .2s ease-in-out;
+}
+
+
+div.overlay {
+    position: absolute;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.cyan-overlay {
+    background-color: var(--cyan);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div.overlay svg {
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 40%;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+
+.equilibrium:hover {
+    cursor: pointer;
+}
+
+.equilibrium:hover .cyan-overlay {
+    opacity: 60%;
+}
+
+.equilibrium:hover div.overlay svg {
+    opacity: 100%;
+}
