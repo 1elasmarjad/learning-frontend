@@ -7,7 +7,7 @@
 
 
 /*PHONE*/
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: 1320px) {
 
     .card {
         width: 430px;
@@ -68,7 +68,7 @@
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1310px) {
+@media screen and (min-width: 1321px) {
     .card {
         width: 1300px;
         height: 550px;
