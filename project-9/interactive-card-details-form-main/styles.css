@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+
+@media screen and (max-width: 500px) {
+
+    .cards-section .card-background {
+        background-image: url("./images/bg-main-mobile.png");
+        height: 230px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .card {
+        width: 291px;
+        height: 159px;
+    }
+
+    .card.card-back {
+        top: 30px;
+        left: 70px;
+    }
+
+    .card.card-front {
+        top: 120px;
+        left: 15px;
+    }
+
+    .cards-section {
+        height: 280px;
+    }
+
+    .input-page {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-data {
+        margin-bottom: 30px;
+    }
+
+    .card-data input {
+        border-radius: 10px;
+    }
+
+    .card-data label {
+        margin-bottom: 10px;
+    }
+
+    .field input {
+        display: block;
+        width: 285px;
+    }
+
+    .card-data input[type=submit] {
+        width: 325px;
+        height: 53px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cards {
+    position: relative;
+}
+
+.cards-section .card-background {
+    position: absolute;
+    width: 100%;
+}
+
+.card {
+    background-size: contain;
+    position: absolute;
+}
+
+.card.card-back {
+    background-image: url(images/bg-card-back.png);
+}
+
+.card.card-front {
+    background-image: url(images/bg-card-front.png);
+}
+
+.input-page {
+    display: flex;
+    height: 100vh;
+}
+
+.card-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-data input {
+    padding: 19px;
+
+    height: 5px;
+
+    font-size: 18px;
+    font-family: 'Space Grotesk', sans-serif;
+
+    border: 1px solid hsl(270, 3%, 87%);
+
+    outline: none;
+}
+
+.card-data input::placeholder {
+    color: #C7C5C8;
+}
+
+.card-data label {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: hsl(278, 68%, 11%);
+    font-weight: 600;
+}
+
+.card-info-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-info-2 {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-gap: 10px;
+    width: 300px;
+}
+
+.field {
+    margin: 10px 0 10px 0;
+}
+
+.card-data input[type=submit] {
+    margin-top: 20px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    padding: 0;
+}
+
+.card-info-2 input {
+}
+
+.data-container {
+    width: 100%;
+    box-sizing: border-box;
+}
