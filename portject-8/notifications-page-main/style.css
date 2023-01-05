@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1100px) {
+
+    body {
+        background-color: white;
+    }
 
     .card {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         padding: 25px 15px 15px 15px;
+    }
+
+    .notifications {
+        margin-top: 20px;
     }
 
     .notification-counter h1 {
@@ -24,12 +32,135 @@
         font-size: 15px;
     }
 
+    .sender-avatar {
+        width: 40px;
+        margin-right: 10px;
+    }
 
+    .sender-name {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .notification {
+        padding: 13px 15px 13px 15px;
+        border-radius: 10px;
+        margin: 10px 0 10px 0;
+    }
+
+    .time-sent {
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
+    .sender-name {
+        margin-right: 3px;
+    }
+
+    .content h4 {
+        margin-left: 3px;
+    }
+
+    .unread-circle {
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-bottom: 1px;
+    }
+
+    .private-message-details {
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 15px;
+        border-radius: 5px;
+    }
 
 }
 
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 1101px) {
+
+    .card {
+        width: 35%;
+        height: 100%;
+        padding: 25px 35px 15px 35px;
+    }
+
+    body {
+        background-color: hsl(210, 60%, 98%);
+
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notifications {
+        margin-top: 30px;
+    }
+
+    .notification-counter h1 {
+        font-size: 21px;
+    }
+
+    .notification-counter span {
+        margin-left: 10px;
+        width: 30px;
+        height: 25px;
+        border-radius: 5px;
+        padding-top: 1px; /*center vertically*/
+    }
+
+    .mark-read {
+        font-size: 15px;
+    }
+
+    .sender-avatar {
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .sender-name {
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+
+    .notification {
+        padding: 13px 15px 13px 15px;
+        border-radius: 10px;
+        margin: 10px 0 10px 0;
+    }
+
+    .time-sent {
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
+    .sender-name {
+        margin-right: 3px;
+    }
+
+    .content h4 {
+        margin-left: 3px;
+    }
+
+    .unread-circle {
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-bottom: 1px;
+    }
+
+    .private-message-details {
+        margin-top: 10px;
+        font-size: 14px;
+        padding: 15px;
+        border-radius: 5px;
+    }
 
 }
 
@@ -39,8 +170,6 @@
 }
 
 body {
-    /*background-color: hsl(210, 60%, 98%); TODO*/
-    background-color: yellow;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -79,4 +208,106 @@ body {
 .mark-read {
     color: hsl(219, 12%, 42%);
 }
+
+.unread {
+    background-color: hsl(205, 33%, 90%);
+}
+
+.sender-avatar {
+    align-self: flex-start;
+}
+
+.notification {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.notification h1 {
+    font-weight: 700;
+}
+
+.sender-name {
+    font-weight: 700;
+}
+
+.notification-text * {
+    display: inline;
+}
+
+.notification-body {
+    display: flex;
+}
+
+.notification-body .content {
+    color: hsl(219, 12%, 42%);
+}
+
+.image-container {
+    height: 100%;
+}
+
+.time-sent {
+    display: block;
+    color: hsl(219, 14%, 63%);
+}
+
+.unread-circle {
+    display: inline-block;
+    background-color: hsl(1, 90%, 64%);
+    width: 8px;
+    height: 8px;
+}
+
+.link-highlight {
+    color: hsl(219, 85%, 26%);
+}
+
+.content h4 {
+    font-weight: 700;
+}
+
+.private-message-details {
+    display: inline-block;
+    color: hsl(219, 12%, 42%);
+    border: 1px solid hsl(219, 14%, 63%, 40%);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.notification-img {
+    width: 50px;
+    margin-left: auto;
+    margin-right: 0;
+    align-self: flex-start;
+}
+
+.link-highlight:hover {
+    cursor: pointer;
+}
+
+.private-message-details:hover {
+    cursor: pointer;
+    background-color: hsl(211, 68%, 94%);
+}
+
+.mark-read:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+.content h4:hover {
+    cursor: pointer;
+    color: hsl(219, 85%, 26%);
+}
+
+.notification-img:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
