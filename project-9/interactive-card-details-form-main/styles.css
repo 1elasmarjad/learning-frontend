@@ -44,15 +44,6 @@
         border-radius: 10px;
     }
 
-    .card-data label {
-        margin-bottom: 10px;
-    }
-
-    .field input {
-        display: block;
-        width: 285px;
-    }
-
     .card-data input[type=submit] {
         width: 325px;
         height: 53px;
@@ -69,19 +60,21 @@
     padding: 0;
 }
 
+
 body {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     font-size: 18px;
 }
 
+/* cards */
 .cards {
     position: relative;
 }
 
 .cards-section .card-background {
     position: absolute;
-    width: 100%;
+    width: 100vw;
 }
 
 .card {
@@ -97,6 +90,8 @@ body {
     background-image: url(images/bg-card-front.png);
 }
 
+/* input */
+
 .input-page {
     display: flex;
     height: 100vh;
@@ -108,6 +103,33 @@ body {
     align-items: center;
 }
 
+.card-info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-info-1 .field input {
+    display: block;
+    width: 285px;
+}
+
+.card-info-2 {
+    display: grid;
+    grid-template-columns: 75px 75px 160px;
+    gap: 8px;
+}
+
+.card-info-2 .field {
+
+}
+
+.card-info-2 .field input {
+    box-sizing: border-box;
+    display: block;
+    width: auto;
+}
+
 .card-data input {
     padding: 19px;
 
@@ -117,37 +139,10 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 
     border: 1px solid hsl(270, 3%, 87%);
-
-    outline: none;
 }
 
 .card-data input::placeholder {
     color: #C7C5C8;
-}
-
-.card-data label {
-    display: inline-block;
-    font-size: 13px;
-    letter-spacing: 0.12em;
-    color: hsl(278, 68%, 11%);
-    font-weight: 600;
-}
-
-.card-info-1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.card-info-2 {
-    display: grid;
-    grid-template-columns: 25% 25% 50%;
-    grid-gap: 10px;
-    width: 300px;
-}
-
-.field {
-    margin: 10px 0 10px 0;
 }
 
 .card-data input[type=submit] {
@@ -157,10 +152,67 @@ body {
     padding: 0;
 }
 
-.card-info-2 input {
-}
 
-.data-container {
-    width: 100%;
-    box-sizing: border-box;
-}
+
+/*.card-data {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.card-data input {*/
+/*    padding: 19px;*/
+
+/*    height: 5px;*/
+
+/*    font-size: 18px;*/
+/*    font-family: 'Space Grotesk', sans-serif;*/
+
+/*    border: 1px solid hsl(270, 3%, 87%);*/
+
+/*    outline: none;*/
+/*}*/
+
+/*.card-data input::placeholder {*/
+/*    color: #C7C5C8;*/
+/*}*/
+
+/*.card-data label {*/
+/*    display: inline-block;*/
+/*    font-size: 13px;*/
+/*    letter-spacing: 0.12em;*/
+/*    color: hsl(278, 68%, 11%);*/
+/*    font-weight: 600;*/
+/*}*/
+
+/*.card-info-1 {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.card-info-2 {*/
+/*    display: grid;*/
+/*    grid-template-columns: 25% 25% 50%;*/
+/*    grid-gap: 10px;*/
+/*    width: 300px;*/
+/*}*/
+
+/*.field {*/
+/*    margin: 10px 0 10px 0;*/
+/*}*/
+
+/*.card-data input[type=submit] {*/
+/*    margin-top: 20px;*/
+/*    background-color: hsl(278, 68%, 11%);*/
+/*    color: white;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.card-info-2 input {*/
+/*}*/
+
+/*.data-container {*/
+/*    width: 100%;*/
+/*    box-sizing: border-box;*/
+/*}*/
