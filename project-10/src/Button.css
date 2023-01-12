@@ -1,0 +1,30 @@
+
+.Regular {
+    background: hsl(183, 100%, 15%);
+    display: grid;
+    place-items: center;
+}
+
+.Custom {
+    background: hsl(189, 41%, 97%);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-right: 0.5em;
+}
+
+
+.Button {
+    height: 2em;
+    border-radius: 0.25em;
+}
+
+.Regular h1.Text {
+    color: white;
+    font-size: 24px;
+}
+
+.Custom h1.Text {
+    color: hsl(186, 14%, 43%);
+    font-size: 24px;
+}

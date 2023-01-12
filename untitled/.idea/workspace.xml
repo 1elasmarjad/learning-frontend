@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b948729-b42b-4ee9-a124-28da3c1bfc21" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/.idea/interactive-card-details-form-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/README-template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/design/active-states.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/design/complete-state-desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/design/complete-state-mobile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/design/desktop-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/design/desktop-preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/design/mobile-design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/bg-card-back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/bg-card-front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/bg-main-desktop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/bg-main-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/card-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/images/icon-complete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/style-guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-9/interactive-card-details-form-main/styles.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2KEaKFg0jzZHuaZa5CWT87JVwOu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/learning-frontend/frontendmentor/learning-frontend/project-10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b948729-b42b-4ee9-a124-28da3c1bfc21" name="Changes" comment="" />
+      <created>1673542131055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673542131055</updated>
+      <workItem from="1673542131959" duration="163000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
