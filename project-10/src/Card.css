@@ -8,12 +8,14 @@
 
 .Container {
     background-color: white;
-    padding: 1em;
+    padding: 1.25em;
+    display: flex;
+    flex-direction: column;
 }
 
 .Buttons {
     display: grid;
-    grid-template-columns: 143px 143px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 0.75em;
     justify-content: center;
@@ -25,6 +27,96 @@ h1.Title {
     color: hsl(186, 14%, 43%);
 }
 
+.ResultContainer {
+    background: hsl(183, 100%, 15%);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em 1em 1em 1em;
+}
+
+.ResetButton {
+    background-color: hsl(172, 67%, 45%);
+    height: 2em;
+    border-radius: 0.25em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 0.5em;
+
+}
+
+.ResetButton h1 {
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+}
+
+.Result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Results {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Result .Left {
+    display: inline-block;
+}
+
+.Result .Right {
+    display: inline-block;
+}
+
+.Result .Left h2 {
+    color: white;
+    font-size: 16px;
+}
+
+.Result .Left p {
+    color: hsl(186, 14%, 43%);
+    font-size: 13px;
+}
+
+.Result .Right h1 {
+    color: hsl(172, 67%, 45%);
+    font-size: 31px;
+}
+
+
+.Amount input {
+    background: hsl(189, 41%, 97%);
+    border: none;
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    width: 85%;
+    height: 1.5em;
+    display: inline-block;
+}
+
+.Amount label {
+    color: hsl(186, 14%, 43%);
+    font-size: 17px;
+    display: block;
+}
+
+.Amount .InputIcon {
+    width: 15%;
+    color: #B0C2C4;
+    height: 1.5em;
+    display: inline-block;
+    background: hsl(189, 41%, 97%);
+    font-size: 23px;
+    text-align: center;
+}
+
+.InputBox {
+    display: flex;
+}
 
 
 

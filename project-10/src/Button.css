@@ -1,8 +1,6 @@
 
 .Regular {
     background: hsl(183, 100%, 15%);
-    display: grid;
-    place-items: center;
 }
 
 .Custom {
@@ -10,13 +8,14 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding-right: 0.5em;
 }
 
 
 .Button {
     height: 2em;
     border-radius: 0.25em;
+    display: grid;
+    place-items: center;
 }
 
 .Regular h1.Text {

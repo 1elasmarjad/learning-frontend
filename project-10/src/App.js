@@ -1,11 +1,11 @@
 import './App.css'
-import Card from "./Card";
+import {Card} from './Card'
 
 
 function App() {
     return (
         <>
-            <Card/>
+            <Card totalDivided={32.79} tipDivided={4.27}/>
         </>
     )
 }
