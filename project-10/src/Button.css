@@ -26,4 +26,5 @@
 .Custom h1.Text {
     color: hsl(186, 14%, 43%);
     font-size: 24px;
+    margin-left: 1em;
 }

@@ -6,11 +6,23 @@
     font-size: 24px;
 }
 
+.BackgroundTitle {
+    text-align: center;
+    letter-spacing: 0.35em;
+    color: hsl(183, 100%, 15%);
+    margin: 1.75em 0;
+
+}
+
 .Container {
     background-color: white;
     padding: 1.25em;
     display: flex;
     flex-direction: column;
+    gap: 1.2em;
+    border-radius: 1em 1em 0 0 ;
+    width: 315px;
+    margin: auto;
 }
 
 .Buttons {
@@ -88,7 +100,7 @@ h1.Title {
 }
 
 
-.Amount input {
+.Container input {
     background: hsl(189, 41%, 97%);
     border: none;
     color: hsl(183, 100%, 15%);
@@ -98,21 +110,20 @@ h1.Title {
     display: inline-block;
 }
 
-.Amount label {
+.Container label {
     color: hsl(186, 14%, 43%);
     font-size: 17px;
-    display: block;
 }
 
-.Amount .InputIcon {
+.InputIcon {
     width: 15%;
     color: #B0C2C4;
     height: 1.5em;
     display: inline-block;
     background: hsl(189, 41%, 97%);
-    font-size: 23px;
     text-align: center;
 }
+
 
 .InputBox {
     display: flex;
